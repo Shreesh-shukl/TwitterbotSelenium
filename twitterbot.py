@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import keys
+from selenium.webdriver.common import keys
 import time
 class TwitterBot:
     def __init__(self,username,password):
